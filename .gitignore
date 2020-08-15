@@ -1,0 +1,6 @@
+# Игнорирую все фото
+/image
+# Галп сборка кроме gulpfile.js
+/node_modules
+/package-lock.json
+/package.json

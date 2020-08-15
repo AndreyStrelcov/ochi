@@ -1,0 +1,20 @@
+@mixin desctop {
+	@media (max-width: 1200px) {
+		@content;
+	}
+}
+@mixin laptop {
+	@media (max-width: 992px) {
+		@content;
+	}
+}
+@mixin tablets {
+	@media (max-width: 768px) {
+		@content;
+	}
+}
+@mixin phones($sm) {
+	@media (max-width: $sm) {
+		@content;
+	}
+}
