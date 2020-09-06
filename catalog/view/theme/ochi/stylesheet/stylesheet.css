@@ -256,7 +256,9 @@ div.required .control-label:before {
 
 /* logo */
 #logo {
-  margin: 0 0 10px 0; }
+  margin: 0 0 10px 0;
+  position: relative;
+  z-index: 5; }
 
 /* search */
 #search {
@@ -320,15 +322,22 @@ div.required .control-label:before {
 
 /* menu */
 #menu {
-  background-color: #229ac8;
   background-repeat: repeat-x;
   min-height: 40px; }
 
+.my-menu {
+  position: relative;
+  z-index: 4; }
+
 #menu .nav > li > a {
-  color: #fff;
+  color: #444;
   padding: 10px 15px 10px 15px;
   min-height: 15px;
   background-color: transparent; }
+
+@media (max-width: 478px) {
+  #menu .nav > li > a {
+    color: #fff; } }
 
 #menu .nav > li > a:hover, #menu .nav > li.open > a {
   background-color: rgba(0, 0, 0, 0.1); }
@@ -368,7 +377,6 @@ div.required .control-label:before {
   text-decoration: none;
   color: #ffffff;
   background-color: #229ac8;
-  background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);
   background-repeat: repeat-x; }
 
 #menu #category {
@@ -387,10 +395,15 @@ div.required .control-label:before {
   padding: 2px 18px;
   float: right;
   background-color: #229ac8;
-  background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);
   background-repeat: repeat-x;
   border-color: #1f90bb #1f90bb #145e7a; }
 
+/******************/
+@media (max-width: 478px) {
+  #menu .nav {
+    background-color: #229ac8; } }
+
+/******************/
 #menu .btn-navbar:hover, #menu .btn-navbar:focus, #menu .btn-navbar:active, #menu .btn-navbar.disabled, #menu .btn-navbar[disabled] {
   color: #ffffff;
   background-color: #229ac8; }
