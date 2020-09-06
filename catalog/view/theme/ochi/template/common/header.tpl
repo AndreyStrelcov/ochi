@@ -53,8 +53,8 @@
     <div class="hidden-sm hidden-xs customer-service pull-left">
       <ul class="customer-service__list list-inline">
         <li><a href="#">Доставка и оплата</a></li>
-        <li>Гарантия и возврат</li>
-        <li>Контакты</li>
+        <li><a href="#">Гарантия и возврат</a></li>
+        <li><a href="#">Контакты</a></li>
       </ul>
     </div>
     <div id="top-links" class="nav pull-right">
@@ -139,4 +139,7 @@
     </div>
   </div>
 </header>
+<div class="promo">
+  <p class="container promo__text">Бесплатная доставка по Украине</p>
+</div>
 

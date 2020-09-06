@@ -58,6 +58,9 @@
 .customer-service {
 	padding-top: 6px;
 }
+.customer-service a {
+	color: #444;
+}
 @media (max-width: 478px) {
 	.customer-service {
 		direction: none;
@@ -204,18 +207,18 @@
 	font-weight: 700;
 	line-height: 40px;
 	color: #fff;
-	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+	// text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
 }
 #menu .btn-navbar {
 	font-size: 15px;
 	font-stretch: expanded;
-	color: #FFF;
+	color: #444;
 	padding: 2px 18px;
 	float: right;
 	background-color: #229ac8;
 	// background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);
-	background-repeat: repeat-x;
-	border-color: #1f90bb #1f90bb #145e7a;
+	// background-repeat: repeat-x;
+	// border-color: #1f90bb #1f90bb #145e7a;
 }
 
 /******************/
@@ -266,4 +269,12 @@
 		border-radius: 0;
 		color: #fff;
 	}
+}
+/***********promo**********/
+.promo {
+	background-color: #9c9;
+}
+.promo__text {
+	color: #fff;
+	text-align: center;
 }
